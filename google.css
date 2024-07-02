@@ -1,0 +1,87 @@
+.google_logo {
+    width: 351;
+    height: 113;
+}
+
+.search_container{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.decrease_gap{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#left_bottom{
+    background-color: #7EE5DA;
+    text-align: center;
+    margin-top: 1px;
+    margin-left: 5%;
+    margin-right: 2px;
+    width: 37%;
+    height: 80px;
+    float: left;
+}
+
+#gap_increase{
+    margin-left: 5px;
+}
+
+#twenty{
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+#twenty_one{
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+#center_bottom{
+    width: 20%;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+    background-color: #70CCC2;
+    margin-right: 2px;
+    display: flex;
+    float: left;
+}
+
+
+#font_gap{
+    margin-left: 50px;
+}
+
+#right_bottom {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    float: left;
+    background-color: #62B3AA;
+    margin-right: 5%;
+    width: 313px;
+    height: 80px;
+    flex-direction: column;
+}
+
+.subscribe-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px; /* Top gap option */
+}
+
+.subscribe-container input[type="submit"] {
+    margin-right: 5px; /* Gap between submit and archives */
+}
+
